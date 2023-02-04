@@ -15,7 +15,7 @@ app.get("/", function(req, res) {
 })
 
 //Gig routes
-app.use('/gigs',require('./routes/gigs'));
+app.use('/gigs',require('./routes/gigs')); 
 
 
 const PORT = process.env.PORT || 5000;
